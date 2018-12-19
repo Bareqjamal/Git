@@ -15,7 +15,22 @@
 </head>
 
 <body>
-
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+              <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>                  
+                   <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
+                   <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul> 
+                   </div>               
+                </div>
+            </nav>
     <header class="jumbotron1">
         <div class="container">
             <div class="row">
@@ -35,6 +50,10 @@
                <h3>About Us</h3>
                <hr>
             </div>
+            <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
         </div>
 
         <div class="container row row-content">
@@ -112,14 +131,10 @@
            </div>
         </div>
     </footer>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"></body>
-
-    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
 </body>
 
 </html>
